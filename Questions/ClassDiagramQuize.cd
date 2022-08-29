@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Questions.Program">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAgAIAAAAAAAAAAAAAAAAAAAAgAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FormW" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Questions.FormA" Collapsed="true">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQAAACACAAAAAAAACACAACAAAAAAACAIAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Questions.FormR" Collapsed="true">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAACACAAABAAAAKACAACAAAAAAAABAAAAgAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Questions.FormW" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAhAAAQDAAAACAgAKBAAACAAAAAAAAIIAAAAAAACA=</HashCode>
+      <FileName>FormW.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FormR" />
+      <Property Name="FormA" />
+      <Property Name="Quize" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Questions.Quize" Collapsed="true">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JEIAACQSLSwoAlCACTjSdAFSEGF6wyKQAHwthACQ0gQ=</HashCode>
+      <FileName>FormQ.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Form_Stat" />
+      <Property Name="Deserialize" />
+      <Property Name="FormProfile" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Question.ClassQuestion" Collapsed="true">
+    <Position X="11.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAQAAAAAAAACAAA=</HashCode>
+      <FileName>ClassQ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Questions.Stat" Collapsed="true">
+    <Position X="9.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAACAAAAAAAAAQAAAAAAAAAAQAA=</HashCode>
+      <FileName>ClassStat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Questions.Deserialize" Collapsed="true">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesQ.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClassQuestion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Questions.FormProfile" Collapsed="true">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAACAAAAAAEAjAQBACAAEAhAAAAAAAAAABABA=</HashCode>
+      <FileName>FormProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Questions.Form_Stat" Collapsed="true">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACAAAAAAAACAAAAGQAAAAAAAAAIAAAAAAEA=</HashCode>
+      <FileName>Form_Stat.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Stat" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
